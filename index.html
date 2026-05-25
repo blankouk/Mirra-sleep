@@ -1110,11 +1110,17 @@ footer {
   .section { padding: 70px 22px; }
   .bento {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 240px);
+    grid-template-rows: none;
   }
+  .bento-card { min-height: 220px; }
   .bento-1, .bento-2, .bento-3, .bento-4, .bento-5 {
     grid-column: 1; grid-row: auto;
   }
+  .bento-1 { padding-bottom: 180px; }
+  .bento-2 { padding-bottom: 100px; }
+  .bento-3 { padding-bottom: 100px; }
+  .bento-4 { padding-bottom: 80px; }
+  .bento-5 { padding-bottom: 80px; }
   .logos { padding: 30px 22px 24px; }
   .logos-row { flex-wrap: wrap; gap: 16px 28px; }
   .logos-row span { font-size: 16px; }
